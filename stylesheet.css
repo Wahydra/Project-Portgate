@@ -27,13 +27,13 @@ a {
   background-image: url(https://images.unsplash.com/photo-1620424722820-c86c2672d7f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
   color: white;
-  
   text-align: center;
+  margin-top: 100px;
 }
 
 .top-wrapper h1 {
   opacity: 1;
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 5px;
   margin-bottom: 10px;
   text-shadow:0px 0px 5px #000000;
@@ -58,14 +58,6 @@ a {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;
@@ -144,10 +136,15 @@ header {
   background-color: #f7f7f7;
   text-align: center;
 }
+.lessons{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: #5f5d60;
+}
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: #5f5d60;
 }
 
@@ -157,7 +154,7 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .lesson-icon {
@@ -170,7 +167,10 @@ header {
   width: 100%;
   color: white;
 }
-
+.img1{
+  width: 50px;
+  height: 50px;
+}
 .text-contents {
   width: 80%;
   display: inline-block;
@@ -188,12 +188,19 @@ header {
   padding-bottom: 80px;
   text-align: center;
 }
+.log{
+  width: 100px;
+  height: 50px;
+  padding: 0px 10px;
+  background-color: blueviolet;
+  cursor: pointer;
+}
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #9e26e4;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  margin-top: 20px;
 }
 
 .message:active {
@@ -202,17 +209,134 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+/* bagian Abaout*/
+.ab{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.ab h2{
+  padding: 0px;
+}
+.kiri{
+  display: flex;
+  float: left;
+}
+.kanan{
+  float: right;
+  display: flex;
+  padding-bottom: 50px;
+}
+.img3{
+  width: 600px;
+  height: 400px;
+}
+.ab h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.text h2{
+  font-size: 35px;
+}
+.text p{
+  font-size: 25px;
+}
+/*akhir Bagian About*/
+
+/* bagian awal gambar*/
+
+.heading h2{
+  text-align: center;
+}
+.heading p{
+  text-align: center;
 }
 
-footer p {
+.item-g{
+  float: left;
+  width: 25%;
+}
+.img2{
+  width: 200px;
+  height: 200px;
+}
+
+.porto{
+  position: relative;
+}
+.porto img{
+  width: 100%;
+}
+.item-g .porto{
+  margin: 0 10px 10px 0;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border:1px solid #E8EAEE;
+  box-shadow:black;
+}
+
+/* bagian akhir gambar*/
+
+/* bagian awal contact*/
+.text1{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.con{
+  padding-top: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  height: 50px;
+}
+textarea {
+  width: 100%;
+}
+.tombol{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/*akhir contact*/
+
+/* bagian footer*/
+.logo-footer img {
+  width: 300px;
+}
+
+.tagline p {
+
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 15px;
+  padding-left: 30px;
+}
+.footer-lits{
+  float: right;
+  color: #E8EAEE;
+}
+.footer-lits li{
+  list-style: none;
+  padding-top: 10px;
+}
+.copyright{
+  padding-top: 200px;
+  text-align: center;
+  color: #E8EAEE;
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(34, 49, 52, 0.9);
 }
